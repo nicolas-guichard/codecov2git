@@ -1,0 +1,17 @@
+# SPDX-FileCopyrightText: 2025 Mozilla
+# SPDX-FileContributor: Nicolas Qiu Guichard <nicolas.guichard@kdab.com>
+#
+# SPDX-License-Identifier: MPL-2.0
+
+[package]
+name = "codecov2git"
+version = "0.1.0"
+edition = "2024"
+authors = ["Nicolas Qiu Guichard <nicolas.guichard@kdab.com>"]
+license = "MPL-2.0"
+
+[dependencies]
+clap = { version = "4.5.53", features = ["derive"] }
+serde = { version = "1.0.228", features = ["derive"] }
+serde_json = "1.0.145"
+time = { version = "0.3.44", features = ["formatting", "parsing"] }

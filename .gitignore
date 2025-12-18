@@ -1,0 +1,9 @@
+# SPDX-FileCopyrightText: 2025 Mozilla
+# SPDX-FileContributor: Nicolas Qiu Guichard <nicolas.guichard@kdab.com>
+#
+# SPDX-License-Identifier: MPL-2.0
+
+/target/
+/.direnv/
+/.envrc
+/result
