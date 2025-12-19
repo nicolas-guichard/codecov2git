@@ -173,7 +173,8 @@ impl File {
         writeln!(fast_import)?;
         for line in &self.coverage {
             if let Some(count) = line {
-                writeln!(fast_import, "{count}")?;
+                let log = (1 + count).ilog10();
+                writeln!(fast_import, "{log}")?;
             } else {
                 writeln!(fast_import)?;
             }
